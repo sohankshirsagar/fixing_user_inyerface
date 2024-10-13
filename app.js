@@ -296,7 +296,7 @@ module.exports = "<button @click=click :class=className :name=name :type=type><s
 
 },{}],8:[function(require,module,exports){
 'use strict';
-
+// test comment
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
