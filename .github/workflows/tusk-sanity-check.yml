@@ -34,21 +34,3 @@ jobs:
           echo "Tusk Run ID: ${{ github.event.inputs.runId }}"
           echo "Test Files: ${{ github.event.inputs.testFiles }}"
           echo "Current Branch: ${{ github.ref }}"
-
-      # TODO: Fix this, but for now "mocked" sanity check
-
-      # - uses: actions/checkout@v4
-      #   with:
-      #     ref: ${{ github.ref }}
-      #     fetch-depth: 0
-
-      # - name: Set Node.js 12
-      #   uses: actions/setup-node@v4
-      #   with:
-      #     node-version: 12
-      
-      # - name: Install dependencies
-      #   run: yarn install
-      
-      # - name: Build app
-      #   run: yarn build:app
